@@ -1,6 +1,13 @@
 {
+  "name": "@jlongyam/ts",
+  "version": "1.0.0",
+  "exports": "./src/main.ts",
   "tasks": {
-    "dev": "deno run main.js",
-    "bundle": "deno bundle src/main.ts --outdir dist"
+    "check": "deno fmt src/main.js --check",
+    "lint": "deno lint",
+    "dev": "deno run src/main.ts",
+    "test": "deno test src/main.ts -A",
+    "bundle": "deno bundle src/main.ts --outdir dist",
+    "info": "deno info dist/main.js"
   }
 }
