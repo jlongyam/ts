@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "dev": "deno run main.js",
+    "bundle": "deno bundle src/ts/main.ts --outdir src/js"
+  }
+}
