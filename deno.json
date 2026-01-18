@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "exports": "./src/main.ts",
   "tasks": {
-    "check": "deno fmt src/main.js --check",
-    "lint": "deno lint",
-    "dev": "deno run src/main.ts",
-    "test": "deno test src/main.ts -A",
-    "bundle": "deno bundle src/main.ts --outdir dist",
-    "info": "deno info dist/main.js"
+    "check": "deno fmt ./src/main.js --check",
+    "lint": "deno lint ./src/main.ts --fix",
+    "dev": "deno run ./src/main.ts",
+    "test": "deno test ./src/main.ts -A",
+    "bundle": "deno bundle ./src/main.ts --outdir dist",
+    "info": "deno info ./dist/main.js"
   }
 }
