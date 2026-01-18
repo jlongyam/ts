@@ -10,5 +10,20 @@
     "bundle": "deno bundle ./src/main.ts --outdir dist",
     "info": "deno info ./dist/main.js",
     "clean": "rm -rf ./dist"
+  },
+  "fmt": {
+    "useTabs": false,
+    "indentWidth": 2,
+    "semiColons": false,
+    "singleQuote": true,
+    "proseWrap": "always",
+    "exclude": ["**/logs.json"]
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["ban-untagged-todo"],
+      "exclude": ["no-unused-vars"]
+    }
   }
 }

@@ -1,4 +1,4 @@
 function say(s: string) {
-  console.log(s);
+  console.log(s)
 }
-say("Hi");
+say('Hi')
