@@ -3,8 +3,11 @@
 Typescript **project template** using **Deno**
 
 - No `npm install`
-- No *tsconfig.json*
+- No **tsconfig.json**
 
-Todo: run `deno task <name>`
+Todo:
 
-See: *deno.json*
+- Run `deno task <name>`, See: **deno.json**
+- Check `.github/workflows/deno.yml`
+
+[MIT](LICENSE)

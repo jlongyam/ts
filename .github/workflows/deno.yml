@@ -26,14 +26,14 @@ jobs:
         with:
           deno-version: v1.x
 
-      - name: Verify formatting
+      - name: Task check
         run: deno task check
 
-      - name: Run linter
+      - name: Task linter
         run: deno task lint
 
-      - name: Run tests
-        run: deno task test
-
-      - name: Run main
+      - name: Task dev
         run: deno task dev
+
+      - name: Task test
+        run: deno task test
