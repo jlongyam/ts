@@ -27,17 +27,13 @@ jobs:
           deno-version: v1.x
 
       - name: Verify formatting
-        run: deno fmt src/main.ts --check
+        run: deno task check
 
       - name: Run linter
-        run: deno lint
+        run: deno task lint
 
       - name: Run tests
-        run: deno test src/main.ts -A
-        
+        run: deno task test
+
       - name: Run main
-        run: deno run src/main.ts
-      
-      - name: Show info
-        run: deno info src/main.ts
-      
+        run: deno task dev
