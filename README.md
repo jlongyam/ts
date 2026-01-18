@@ -1,6 +1,6 @@
 # TS
 
-[![Build Status](https://github.com/jlongyam/ts/actions/workflows/deno.yml/badge.svg)](https://github.com/jlongyam/ts/actions/workflows/deno.yml)
+[![Deno](https://github.com/jlongyam/ts/actions/workflows/deno.yml/badge.svg)](https://github.com/jlongyam/ts/actions/workflows/deno.yml)
 
 Typescript **project template** using **Deno**
 
