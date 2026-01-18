@@ -9,7 +9,8 @@
     "test": "deno test ./src/main.ts -A",
     "bundle": "deno bundle ./src/main.ts --outdir dist",
     "info": "deno info ./dist/main.js",
-    "clean": "rm -rf ./dist"
+    "clean": "rm -rf ./dist",
+    "clean:workflow": "gh run list --status failure --limit 200 --json databaseId -q '.[].databaseId' | xargs -I{} gh run delete {}"
   },
   "fmt": {
     "useTabs": false,
